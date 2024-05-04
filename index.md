@@ -1,0 +1,134 @@
+# Processingによる情報可視化入門
+#### 2コマでわかる情報可視化の基礎
+
+**知能システムツール演習b 担当: 延原 肇（知能機能システム専攻）**
+
+
+
+
+
+
+
+## 授業の目的
+
+ここ数年のコンピュータ性能（特にグラフィック関連の性能）の急激な向上、およびインターネットのインフラ整備などに伴い、**情報可視化（Information Visualization）**という言葉が、頻繁に登場するようになってきています。情報可視化については、色々な人たちによって、様々な定義が提案されておりますが、この授業では、
+
+**「情報の最終観測者である人間にとって、咀嚼しやすい形式に情報を加工・提供する一連の技術の総称」**
+
+としておきましょう。<span style="color: red;">この定義が正解というわけではないので、今後は、皆さん自身で、適切な定義を模索してください。</span>
+
+
+
+さて、今回、この授業で参考にした資料は、「<a target="_blank" href="https://www.oreilly.com/library/view/visualizing-data/9780596514556/">Visualizing Data</a>」という<a target="_blank" href="https://benfry.com/">Ben Fry</a> によって書かれた本です。この本の長所、<span style="color: red;">すなわち従来の本と異なる素晴らしいところ</span>は、情報可視化に興味のある読者、あるいはこれから新規に取り組んでみようと思っている読者に対して、情報可視化の環境の具体的な構築方法を解説しているところです。従来の情報可視化の本では、色々と**高尚**（コウショウ）な方法論が記載されておりますが、それを具体的にどのように実現するのか、についてはほとんど書かれておりません。 つまり、<span style="color: blue">情報可視化をやってみよう</span>と志す人たちがいても、一体、どこから手をつけてよいのか、どのようなプログラミング言語を使えばよいのか、それが全く書かれておりません。
+
+従来の書籍では、「<span style="color: red;">絵にかいた餅</span>」になりがちですが、 「Visualizing Data」では、著者Ben Fry自身が開発に関わっている <a target="_blank" href="https://processing.org/">Processing</a> という言語を使い、インストールからプログラミングまでが丁寧に記述されております。今回の授業では、この本をベースにしながら、情報可視化のための環境を一人で構築できるようになるまで、を目標に内容を構成しています。この授業が終わる頃には、皆さんは、一人前の<span style="color: red;">情報可視化マイスター</span> になっていることでしょう。
+
+
+
+
+
+
+## 本授業の構成について
+
+
+本授業では，みなさんにひたすら手を動かしてもらいます．
+
+1. Processingの基礎習得 (0.5コマ程度)
+
+2. 応用編その1：米国地図を用いた視覚化
+
+3. 応用編その2:リンクの埋め込み
+
+4. 応用編その3：つくばエクスプレス運行状況の視覚化に挑戦
+
+5. 課題の遂行
+
+
+
+## (1) Processingの基礎習得
+この授業では Processing というプログラミング言語を使って学習を進めます。Processingは、JAVAをベースにしたデザイナーやアーティスト向けの手軽な開発環境であり、MITメディアラボでプログラミング教育用に作られたDesign By Numbers にその起源があります。Design By Numbers は表現力が限られており、より高度な表現を可能にするために登場したのが、Processing です。 理系の学生さんならば、Processingに登場するコマンド群になじみがあり、すぐに使いこなすことができるようになると思います。
+
+Processing は<a target="_blank" href="https://processing.org/download/">こちら</a>からダウンロードすることができます。
+
+
+
+## とにかくやってみよう！
+
+※スマートインフォメディアシステム特論を受講している学生さん等，すでに Processing になじんでいる場合は，下記のレベル1,2,3のステップは飛ばして，(2) 応用編に進んでもらって結構です。
+
+インストールが完了したら、以下のレベル１、２、３に従い、サンプルプログラムをひたすら打ち込んで、Processing に慣れてください。
+
+
+- <a href="level_1/level_1.html" target="_blank">レベル１: エディタの使い方、描画窓、点や線の書き方</a>
+- <a href="level_2/level_2.html" target="_blank">レベル２: 色々な図形の描画および色指定の方法</a>
+- <a href="level_3/level_3.html" target="_blank">レベル３: 変数の取り扱い、ループ制御</a>
+
+
+以上、Processingの取扱いには慣れてきたでしょうか？
+
+Processingの各種コマンド等に関する参考ページが以下にありますので、そちらを参考にするとよいでしょう。
+
+＊あるいは、「processing入門」などというキーワードで検索をかけるとよい
+
+<a href="http://processing.org/reference/index.html" target="_blank">リファレンス(Reference)</a>
+
+
+
+## (2) 応用編その1：米国地図を用いた視覚化
+
+さて、ここまではウォーミングアップです。Processingの基礎を習得したところで、早速、情報可視化の「Mapping」という例を使って演習をしてゆきましょう。
+
+まずは、下準備をします。 以下のプログラムを打ち込んで（コピー＆ペーストでよい）、「mapping」という名前で保存しましょう。
+
+
+
+<pre style="background-color: silver; padding: 8px; border-radius: 4px;">
+PImage mapImage; //画像を取り込むための変数を準備
+
+//setup部分で、640x400の窓を準備
+//map.pngをmapImageにロードする
+void setup(){
+size(640,400);
+mapImage = loadImage("map.png");
+}
+
+//imageコマンドで、mapImageを貼り付ける。
+//ここで貼り付ける座標は(0,0)
+void draw(){
+background(255);
+image(mapImage, 0, 0);
+}
+</pre>
+
+
+
+
+
+**<span style="color: red;">保存の時の注意点</span>**
+
+<span style="color: red;">保存先は、どこでも結構ですが、わかりやすくするために「デスクトップ」の上に、今回は「Processing_data」というフォルダを作り、「mapping」という名前でプログラムを上の「Processing_data」の中に保存すると、 自動的に「mapping」というフォルダが作られることになります。</span>
+
+
+
+以下のリンクから、画像「map.png」をダウンロードしてください。
+
+<a target="_blank" href="mapping/map.png">米国の白地図 map.png (39KB)</a>
+
+
+このmap.pngを、「mapping」フォルダに移動してください。
+
+ここで一度、プログラムを実行させてみましょう。そうすると、以下のような画面になれば、まずは成功です。
+
+
+<p align="center"><img src="mapping/map_2" alt="" width="531" height="592" border="1">
+  </p>
+
+
+
+ここまでできれば、下準備はおしまいです。次から、このmap.pngを使って、色々と可視化をしてしまいましょう。
+
+
+
+<p align="right"><a href="mapping/mapping_1.html">次へすすむ</a></p>
+Copyright © Hajime Nobuhara, All Rights Reserved.
+
