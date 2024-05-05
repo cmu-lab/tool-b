@@ -1,19 +1,19 @@
-//‰Šú‰»•”
+//åˆæœŸåŒ–éƒ¨
 void setup(){
-  size(200,200); //ƒTƒCƒY200x200‚ÉƒZƒbƒg
-  background(255); //”wŒiF‚ğ”’‚ÉƒZƒbƒg
-  colorMode(RGB, 256); //ƒJƒ‰[ƒ‚[ƒh‚ğRGB 256’iŠK‚ÉƒZƒbƒg
+  size(200,200); //ã‚µã‚¤ã‚º200x200ã«ã‚»ãƒƒãƒˆ
+  background(255); //èƒŒæ™¯è‰²ã‚’ç™½ã«ã‚»ãƒƒãƒˆ
+  colorMode(RGB, 256); //ã‚«ãƒ©ãƒ¼ãƒ¢ãƒ¼ãƒ‰ã‚’RGB 256æ®µéšã«ã‚»ãƒƒãƒˆ
 }
 
-//ƒƒCƒ“ƒ‹[ƒv
+//ãƒ¡ã‚¤ãƒ³ãƒ«ãƒ¼ãƒ—
 void draw(){
-  stroke( randomRGBColor()); //ü‚ÌF‚ğƒ‰ƒ“ƒ_ƒ€‚Éİ’è
+  stroke( randomRGBColor()); //ç·šã®è‰²ã‚’ãƒ©ãƒ³ãƒ€ãƒ ã«è¨­å®š
   int x = int(random(width));
   int y = int(random(height));
-  rectLines(x, y, 30, 30); 
+  rectLines(x, y, 30, 30);
 }
 
-//‚±‚±‚©‚çŠÖ”‚Ì’è‹`
+//ã“ã“ã‹ã‚‰é–¢æ•°ã®å®šç¾©
 
 void rectLines(int x, int y, int w, int h){
   line (  x,  y,x+w,  y);
@@ -26,5 +26,3 @@ color randomRGBColor(){
   color c = color(random(256), random(256), random(256), 30);
   return c;
 }
-
- 
