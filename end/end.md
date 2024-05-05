@@ -11,7 +11,7 @@
 
 - **課題2.** 授業の感想 200-300文字程度で書いて提出してください．
 
-<span style="color: red;">提出期限は、05/18 08:00とします。</span>
+<span style="color: red;">提出期限は、05/16 08:40とします。</span>
 
 [提出方法]
 
@@ -45,4 +45,3 @@
 
 <p align="right">by <a href="http://www.nobuharaken.com" target="_blank">延原 肇 ＠知能機能システム専攻</a>
 <p><a href="../TX_visualization_7/Tx_visualization_7.html">←前にもどる</a>
-
