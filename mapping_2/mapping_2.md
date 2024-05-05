@@ -7,7 +7,7 @@
 それでは、まず、以下のリンクを開き、プログラム「<span style="color: blue;">Table2.pde</span>」をコピーアンドペーストして保存してください。<span style="color: red;">※ダウンロードして、エディタで開くと文字化けしてしまう可能性があります。 これ以降は、コピーアンドペーストでゆきましょう！</span>
 
 
-<p align="center"><a target="_blank" href="Table2.pde">Table2.pdeのプログラム</a></p>
+<p align="center"><a target="_blank" href="Table2.pde" download="Table2.pde">Table2.pdeのプログラム</a></p>
 
 
 

@@ -13,7 +13,7 @@
 
 
 
-<p align="center"><a href="Table5.pde" target="_blank">Table5.pdeのプログラム</a>
+<p align="center"><a href="Table5.pde" target="_blank" download="Table5.pde">Table5.pdeのプログラム</a>
 
 
 マウスのインタラクション機能を盛り込んだ <span style="color: blue">Table5.pde</span> というプログラムを実行する前に、下準備を行う必要があります。今回、マウスを使って、各州の情報を画面上に文字として表示させたいのですが、Processing では、文字を描画するために、フォントのファイルを一度準備しなければなりません。以下の手順で、フォントを準備しましょう。

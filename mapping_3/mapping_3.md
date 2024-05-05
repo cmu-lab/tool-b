@@ -6,7 +6,7 @@
 
 まずは、以下のリンクにある<span style="color: blue">Table3.pde</span> をコピーアンドペーストし、それを保存し<span style="color: blue">Table3</span>というフォルダを作りましょう。
 
-<p align="center"><a href="Table3.pde" target="_blank">Table3.pdeのプログラム</a></p>
+<p align="center"><a href="Table3.pde" target="_blank" download="Table3.pde">Table3.pdeのプログラム</a></p>
 
 
 この <span style="color: blue">Table3.pde</span> を実行し、以下のような画面が出ると成功です。

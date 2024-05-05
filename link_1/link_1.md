@@ -10,7 +10,7 @@
 
 
 
-<p align="center"><a href="Link.pde" target="_blank">Link.pdeのプログラム</a></p>
+<p align="center"><a href="Link.pde" target="_blank" download="Link.pde">Link.pdeのプログラム</a></p>
 
 
 

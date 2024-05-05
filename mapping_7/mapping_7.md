@@ -14,7 +14,7 @@ Table6.pde では、ちょっと脱線してしまいましたので、ここで
 
 
 
-<p align="center"><a href="./Table7/Table7.pde" target="_blank">Table7.pdeのプログラム</a></p>
+<p align="center"><a href="Table7.pde" target="_blank" download="Table7.pde">Table7.pdeのプログラム</a></p>
 
 
 

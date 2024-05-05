@@ -10,7 +10,7 @@
 
 Table5.pde に対して、ちょっとした機能を付け加えた、Table6.pde を以下に準備しました。<span style="color: red">前回同様、「map.png」、「locations.tsv」「random.tsv」、そして「data」フォルダの下に、フォントを準備してください。</span>
 
-<p align="center"><a href="Table6.pde" target="_blank">Table6.pdeのプログラム</a></p>
+<p align="center"><a href="Table6.pde" target="_blank" download="Table6.pde">Table6.pdeのプログラム</a></p>
 
 
 

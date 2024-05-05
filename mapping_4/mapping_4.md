@@ -22,7 +22,7 @@
 
 
 
-<p align="center"><a href="Table4.pde" target="_blank">Table4.pdeのプログラム</a></p>
+<p align="center"><a href="Table4.pde" target="_blank" download="Table4.pde">Table4.pdeのプログラム</a></p>
 
 
 
@@ -38,4 +38,3 @@
 <p align="right"><a href="../mapping_5/mapping_5.html">次へすすむ→</a></p>
 <p align="left"><a href="../mapping_3/mapping_3.html">←前にもどる</a>
 <p align="right"><a href="../index.html">トップにもどる↑</a>
-
