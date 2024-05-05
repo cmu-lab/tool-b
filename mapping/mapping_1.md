@@ -13,7 +13,7 @@
 <span style="color: red;">[注意]計算機の環境によっては、ダウンロードしたプログラムがうまく動かない場合もあります。この場合はプログラムをコピー、そしてProcessingのエディタにペーストするとうまくゆくとおもいます。</span>
 
 
-<p align="center"><a target="_blank" href="./Table/Table1.pde" download="./Table/Table1.pde">Table1.pdeのプログラム</a></p>
+<p align="center"><a target="_blank" href="./Table1.pde" download="./Table1.pde">Table1.pdeのプログラム</a></p>
 
 Table1.pdeは、かなり長いプログラムなので、びっくりする人もいるかもしれませんが、後ほど、じっくりその構造について解説しますので、現段階では、こんなもんなんだ、と思って、以下の作業を進めてください。
 
