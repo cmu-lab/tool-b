@@ -9,7 +9,7 @@
 
 これまでのプログラムでは、単にデータを表示させるだけでしたが、今回はマウスによるインタラクションの機能を導入します。
 
-まず、以下の Table5.pde プログラムをこれまで同様、コピーアンドペーストし、Table5 というフォルダを作りましょう。 <span style="color: red;">前回同様、「map.png」、「locations.tsv」「random.tsv」というファイルを、以下のTable5.pdeというプログラムのあるフォルダにコピーしてください。</span>
+まず、以下の Table5.pde プログラムをこれまで同様、ダウンロードし、Table5 というフォルダを作りましょう。 <span style="color: red;">前回同様、「map.png」、「locations.tsv」「random.tsv」というファイルを、以下のTable5.pdeというプログラムのあるフォルダにコピーしてください。</span>
 
 
 
@@ -24,7 +24,7 @@
 
 上図のように、「<span style="color: blue">Tools</span>」の「<span style="color: blue">Create Font</span>」を選択してください。
 
-基本的にどのフォントを選択してもよいのですが、今回は、 一番最初のフォントを選択しましょう。<span style="color: red">もし、違うフォントを選択したい場合は、プログラムを修正する必要があるので注意してください。</span>
+どのフォントを選択してもOKです。<span style="color: red">作成したフォントのファイル名を、プログラムに入力する必要があるので注意してください。</span>
 
 <p align="center"><img src="font_2" alt="" border="1" />
 

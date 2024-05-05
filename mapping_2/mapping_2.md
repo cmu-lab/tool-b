@@ -4,14 +4,14 @@
 
 前のプログラムでは、米国の各州ごとに、マルを同じ大きさで描画してゆきましたが、もう少し工夫してみましょう。具体的には、「<span style="color: blue;">random.tsv</span>」というファイルに各州のマルの大きさを、ランダムに書き込んだものを準備し、それに従い描画します。これを実行するために、初期化部、メインループを修正し、さらに、<span style="color: blue;">drawData()</span>という関数を新たに追加します。 詳細な変更については、プログラム内にコメントとして書き込んでありますので、 そちらを参考にしてください。
 
-それでは、まず、以下のリンクを開き、プログラム「<span style="color: blue;">Table2.pde</span>」をコピーアンドペーストして保存してください。<span style="color: red;">※ダウンロードして、エディタで開くと文字化けしてしまう可能性があります。 これ以降は、コピーアンドペーストでゆきましょう！</span>
+それでは、まず、以下のプログラム「<span style="color: blue;">Table2.pde</span>」をダウンロードしてください。
 
 
 <p align="center"><a target="_blank" href="Table2.pde" download="Table2.pde">Table2.pdeのプログラム</a></p>
 
 
 
-これをProcessingで開き保存すると、<span style="color: blue;">Table2</span> というフォルダができることを確認しましょう。
+これをProcessingで開くと、<span style="color: blue;">Table2</span> というフォルダができることを確認しましょう。
 
 次に、「<span style="color: blue;">random.tsv</span>」というファイルを、以下のリンクからダウンロードして、Table2 のフォルダに入れましょう。<span style="color: red;">また、「map.png」と「location.tsv」のファイルも、それぞれ一緒のフォルダに入れましょう。 これらのファイルがないと、プログラムは動きませんので、十分に注意してください。</span>
 
@@ -65,3 +65,4 @@ Table2.pde 内に書かれているコメント、そして、新しく出てき
 
 
 <p align="right"><a href="../index.html">トップにもどる↑</a>
+

@@ -15,7 +15,7 @@ void setup(){
   //フォントをセットします
   //loadFont でロードするファイルは、自分がCreateしたフォント
   //にしてください。
-  PFont font = loadFont("AgencyFB-Reg-12.vlw");
+  PFont font = loadFont("[ここにフォント名を設定].vlw");
   textFont(font);
 
   mapImage = loadImage("map.png");

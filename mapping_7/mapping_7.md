@@ -10,7 +10,7 @@
 
 Table6.pde では、ちょっと脱線してしまいましたので、ここで Table5.pde をベースにして、米国の各州の名前を略称ではなく、正式名称を表示するようにしてみましょう。米国以外に住んでいる皆さんにとっては、この可視化によって、米国に関する土地勘がかなり身につくのではないかと思います。
 
-では、Table7.pde を以下のリンクからコピーアンドペーストしましょう。
+では、Table7.pde を以下のリンクからダウンロードしましょう。
 
 
 
@@ -18,7 +18,7 @@ Table6.pde では、ちょっと脱線してしまいましたので、ここで
 
 
 
-<span style="color: red">前回同様、Table7フォルダの中に、「map.png」、「locations.tsv」「random.tsv」、そして「data」フォルダの下に、フォントを準備してください。</span>
+<span style="color: red">前回同様、Table7フォルダの中に、「map.png」、「locations.tsv」「random.tsv」を準備してください。</span>
 
 
 

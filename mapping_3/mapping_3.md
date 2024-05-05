@@ -4,7 +4,7 @@
 
 前のプログラムでは、マルの大きさを変更し描画しましたが、今度のプログラムでは、大きさは変更せずに、色遣いによって数値の大小を視覚化します。具体的には、赤から青までの範囲に数値を対応させることにします。<span style="color: red;">前回同様、「map.png」、「locations.tsv」「random.tsv」というファイルを、以下のTable3.pdeというプログラムのあるフォルダにコピーし、実行準備を整えてください。</span>
 
-まずは、以下のリンクにある<span style="color: blue">Table3.pde</span> をコピーアンドペーストし、それを保存し<span style="color: blue">Table3</span>というフォルダを作りましょう。
+まずは、以下のリンクにある<span style="color: blue">Table3.pde</span> をダウンロードし、Processingで開いて、<span style="color: blue">Table3</span>というフォルダを作りましょう。
 
 <p align="center"><a href="Table3.pde" target="_blank" download="Table3.pde">Table3.pdeのプログラム</a></p>
 
@@ -39,3 +39,4 @@
 <p align="right">どんどん高度な機能を追加してゆきましょう。　<a href="../mapping_4/mapping_4.html">次へすすむ→</a></p>
 <p align="left"><a href="../mapping_2/mapping_2.html">←前にもどる</a></p>
 <p align="right"><a href="../index.html">トップにもどる↑</a>
+

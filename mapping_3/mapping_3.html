@@ -532,7 +532,7 @@ code {
     opacity: 1;
 }
 
-.md-toc {
+.md-toc { 
     margin-top:20px;
     padding-bottom:20px;
 }
@@ -604,7 +604,7 @@ header, .context-menu, .megamenu-content, footer{
 
 .menu-item-container a.menu-style-btn {
     background-color: #f5f8fa;
-    background-image: linear-gradient( 180deg , hsla(0, 0%, 100%, 0.8), hsla(0, 0%, 100%, 0));
+    background-image: linear-gradient( 180deg , hsla(0, 0%, 100%, 0.8), hsla(0, 0%, 100%, 0)); 
 }
 
 
@@ -612,7 +612,7 @@ header, .context-menu, .megamenu-content, footer{
 </style><title>mapping_3</title>
 </head>
 <body class='typora-export'><div class='typora-export-content'>
-  <div id='write'  class=''><h1 id='processingによる情報可視化-ステップ3'><span>Processingによる情報可視化　ステップ3</span></h1><h2 id='描画方法の工夫-その2'><span>描画方法の工夫　その2</span></h2><p><span>前のプログラムでは、マルの大きさを変更し描画しましたが、今度のプログラムでは、大きさは変更せずに、色遣いによって数値の大小を視覚化します。具体的には、赤から青までの範囲に数値を対応させることにします。</span><span style="color: red;"><span>前回同様、「map.png」、「locations.tsv」「random.tsv」というファイルを、以下のTable3.pdeというプログラムのあるフォルダにコピーし、実行準備を整えてください。</span></span></p><p><span>まずは、以下のリンクにある</span><span style="color: blue"><span>Table3.pde</span></span><span> をコピーアンドペーストし、それを保存し</span><span style="color: blue"><span>Table3</span></span><span>というフォルダを作りましょう。</span></p><p align="center"><a href="Table3.pde" target="_blank" download="Table3.pde">Table3.pdeのプログラム</a></p><p><span>この </span><span style="color: blue"><span>Table3.pde</span></span><span> を実行し、以下のような画面が出ると成功です。</span></p><p align="center"><img src="table3_result" alt="" border="1" /><p>&nbsp;</p><p><span>今回の Table3.pde では、新しい関数 norm と lerpColor が登場してきます。これらについては、プログラム中のコメントおよびリファレンスでしっかり理解しておきましょう。</span></p><p align="center"><a href="http://processing.org/reference/norm_.html" target="_blank">norm の説明  </a></p>
+<div id='write'  class=''><h1 id='processingによる情報可視化-ステップ3'><span>Processingによる情報可視化　ステップ3</span></h1><h2 id='描画方法の工夫-その2'><span>描画方法の工夫　その2</span></h2><p><span>前のプログラムでは、マルの大きさを変更し描画しましたが、今度のプログラムでは、大きさは変更せずに、色遣いによって数値の大小を視覚化します。具体的には、赤から青までの範囲に数値を対応させることにします。</span><span style="color: red;"><span>前回同様、「map.png」、「locations.tsv」「random.tsv」というファイルを、以下のTable3.pdeというプログラムのあるフォルダにコピーし、実行準備を整えてください。</span></span></p><p><span>まずは、以下のリンクにある</span><span style="color: blue"><span>Table3.pde</span></span><span> をダウンロードし、Processingで開いて、</span><span style="color: blue"><span>Table3</span></span><span>というフォルダを作りましょう。</span></p><p align="center"><a href="Table3.pde" target="_blank" download="Table3.pde">Table3.pdeのプログラム</a></p><p><span>この </span><span style="color: blue"><span>Table3.pde</span></span><span> を実行し、以下のような画面が出ると成功です。</span></p><p align="center"><img src="table3_result" alt="" border="1" /><p>&nbsp;</p><p><span>今回の Table3.pde では、新しい関数 norm と lerpColor が登場してきます。これらについては、プログラム中のコメントおよびリファレンスでしっかり理解しておきましょう。</span></p><p align="center"><a href="http://processing.org/reference/norm_.html" target="_blank">norm の説明  </a></p>
 <p align="center"><a href="http://processing.org/reference/lerpColor_.html" target="_blank">lerpColor の説明</a></p><p>&nbsp;</p><p>&nbsp;</p><h2 id='練習問題'><span>練習問題</span></h2><p><strong><span>色の範囲を、自分なりに調整してみてください。</span></strong></p><p><span style="color: green"><span>例： color between = lerpColor(#296F34, #61E2F0, percent);</span></span></p><p><span>この例に基づくと、以下のような感じの描画になります。シックな感じになったと思いませんか？</span></p><p align="center"><img src="ex_1" alt="" border="1" /></p><p align="right">どんどん高度な機能を追加してゆきましょう。　<a href="../mapping_4/mapping_4.html">次へすすむ→</a></p>
 <p align="left"><a href="../mapping_2/mapping_2.html">←前にもどる</a></p>
 <p align="right"><a href="../index.html">トップにもどる↑</a><p>&nbsp;</p></div></div>

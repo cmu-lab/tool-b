@@ -17,7 +17,7 @@
 
 この正負を区別して表示させたい、というのは自然な欲求かと思います。今回は、正負をそれぞれ色遣いを分けて描画してみましょう。<span style="color: red;">前回同様、「map.png」、「locations.tsv」「random.tsv」というファイルを、以下のTable4.pdeというプログラムのあるフォルダにコピーし、実行準備を整えてください。</span>
 
-<span style="color: blue">Table4.pde</span> を以下のリンクからコピーアンドペーストし、<span style="color: blue">Table4</span>というフォルダを作りましょう。
+<span style="color: blue">Table4.pde</span> を以下のリンクからダウンロードし、<span style="color: blue">Table4</span>というフォルダを作りましょう。
 
 
 
@@ -38,3 +38,4 @@
 <p align="right"><a href="../mapping_5/mapping_5.html">次へすすむ→</a></p>
 <p align="left"><a href="../mapping_3/mapping_3.html">←前にもどる</a>
 <p align="right"><a href="../index.html">トップにもどる↑</a>
+
