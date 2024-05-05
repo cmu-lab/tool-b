@@ -13,7 +13,7 @@
 <span style="color: red;">[注意]計算機の環境によっては、ダウンロードしたプログラムがうまく動かない場合もあります。この場合はプログラムをコピー、そしてProcessingのエディタにペーストするとうまくゆくとおもいます。</span>
 
 
-<p align="center"><a target="_blank" href="./Table/Table1.pde">targeTable1.pdeのプログラム</a></p>
+<p align="center"><a target="_blank" href="./Table/Table1.pde" download="./Table/Table1.pde">Table1.pdeのプログラム</a></p>
 
 Table1.pdeは、かなり長いプログラムなので、びっくりする人もいるかもしれませんが、後ほど、じっくりその構造について解説しますので、現段階では、こんなもんなんだ、と思って、以下の作業を進めてください。
 
@@ -25,7 +25,7 @@ Table1.pdeは、かなり長いプログラムなので、びっくりする人�
 <p align="center"><a target="_blank" href="./Table/locations.tsv">locations.tsv をダウンロード</a>
 
 <p align="center">
-  <img src="table_1" alt="" border="1">  
+  <img src="table_1" alt="" border="1">
 </p>
 
 
@@ -35,7 +35,7 @@ Table1.pdeは、かなり長いプログラムなので、びっくりする人�
 
 
 <p align="center">
-  <img src="./TSV_file" alt="" border="1">  
+  <img src="./TSV_file" alt="" border="1">
 </p>
 
 
@@ -43,7 +43,7 @@ Table1.pdeは、かなり長いプログラムなので、びっくりする人�
 この状態で、<span style="color: blue;">Table1.pde</span>を実行してみましょう。以下のような画面が出れば成功です。
 
 <p align="center" src="table_2">
-  <img src="table_2" alt="" width="553" height="368" border="1">  
+  <img src="table_2" alt="" width="553" height="368" border="1">
 </p>
 
 
@@ -56,7 +56,7 @@ Table1.pdeは、かなり長いプログラムなので、びっくりする人�
 
 <span style="color: blue;">Table.pde</span>プログラムでは、これまでのプログラムとは異なり、<span style="color: blue;">構造化プログラミング</span>という技法が導入されています。これはプログラムに
 
- 
+
 
 - 初期化部　setup()
 - メインループ draw()
@@ -67,7 +67,7 @@ Table1.pdeは、かなり長いプログラムなので、びっくりする人�
 
 という構造を持たせ、より高度な機能を実現させるためのものです。<span style="color: blue;">Table1.pde</span>を注意深く見てください。上記の構造のように
 
- 
+
 
 - 初期化部　setup()
 - メインループ draw()
@@ -114,11 +114,11 @@ Table1.pdeは、かなり長いプログラムなので、びっくりする人�
 
 <p align="center"><a target="_blank" href="./sample.pde">サンプルプログラム</a></p>
 
- 
+
 
 どうですか？メインループの中が、ものすごい速さで繰り返し処理され、カラフルな四角形がどんどん描画されているのがわかりましたか？米国の地図を描画するプログラムでは、毎回、同じ処理が行われるため、メインループが繰り返し処理されているのがわかりにくいのですが、実際は、1秒間に何十回という速さで、画像を上書きをしています。
 
- 
+
 
 さて、これまでの流れを理解したら、次に進みましょう。
 
