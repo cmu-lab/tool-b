@@ -112,7 +112,7 @@ image(mapImage, 0, 0);
 
 以下のリンクから、画像「map.png」をダウンロードしてください。
 
-<a target="_blank" href="mapping/map.png" download="mapping/map.png">米国の白地図 map.png (39KB)</a>
+<a target="_blank" href="map.png" download="map.png">米国の白地図 map.png (39KB)</a>
 
 
 このmap.pngを、「mapping」フォルダに移動してください。
